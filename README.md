@@ -45,9 +45,10 @@ rosrun mqtt_router mqtt_router_pub
 
 MQTT publisher node would send some message to MQTT subscriber node as shown in the below.
 
-
+![MQTT Sub/Pub](/image/mqttROS.jpg)
 
 ## Other Application
 There are some IoT platforms such as google cloud platform, Adafruit, or Thingsboard which we can use to manage and visualize the data.
 
 
+![IoT platform](/image/mqttThingsboard.jpg)
