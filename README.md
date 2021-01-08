@@ -50,7 +50,7 @@ MQTT publisher node would send some message to MQTT subscriber node as shown in 
 ## Other Application
 There are some IoT platforms such as google cloud platform, Adafruit, or ThingsBoard which we can use to manage and visualize the data.
 
-We would [ThingsBoard](https://thingsboard.io/docs/getting-started-guides/helloworld/) as an example to illustrate how to 
-Users can choose to build a private cloud on their own machine or use a public one on ThingsBoard website.
+We would use [ThingsBoard](https://thingsboard.io/docs/getting-started-guides/helloworld/) as an example to illustrate how to send data from ROS client to the IoT platform via MQTT. Users can choose to build a private cloud on their own machine or use a public one on ThingsBoard website. If you choose to host the patform locally, you could find the [tutorial](https://thingsboard.io/docs/user-guide/install/docker/) on their website and install the platform with Docker easily.
 
+In the figure below, we have a MQTT publisher ROS node sending interger data which can be successfully received by the IoT platform.
 ![IoT platform](/image/mqttThingsboard.jpg)
