@@ -48,7 +48,9 @@ MQTT publisher node would send some message to MQTT subscriber node as shown in 
 ![MQTT Sub/Pub](/image/mqttROS.jpg)
 
 ## Other Application
-There are some IoT platforms such as google cloud platform, Adafruit, or Thingsboard which we can use to manage and visualize the data.
+There are some IoT platforms such as google cloud platform, Adafruit, or ThingsBoard which we can use to manage and visualize the data.
 
+We would [ThingsBoard](https://thingsboard.io/docs/getting-started-guides/helloworld/) as an example to illustrate how to 
+Users can choose to build a private cloud on their own machine or use a public one on ThingsBoard website.
 
 ![IoT platform](/image/mqttThingsboard.jpg)
